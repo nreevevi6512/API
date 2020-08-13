@@ -1,0 +1,27 @@
+GET http://localhost:3000/ninjas
+
+###
+
+GET http://localhost:3000/ninjas/5f35607f1598c520845a3ef6
+
+###
+
+POST http://localhost:3000/ninjas
+Content-Type:  application/json
+
+{
+    "name": "muhahhaha",
+    "ninjaChannel": "This is u"
+}
+
+###
+
+DELETE http://localhost:3000/ninjas/5f35607f1598c520845a3ef6
+
+###
+PATCH http://localhost:3000/ninjas/5f354e16507e2826ac3697b5
+Content-Type: application/json
+
+{
+    "name": "Modafakas hahah"
+}
